@@ -1,0 +1,11 @@
+# file used to avoid commiting of files which are related to caches, securties
+# got to gitignore.io on chrome, search for django, click on create. copy the code
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+/media
+/static
