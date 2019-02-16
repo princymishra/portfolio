@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-      {% load staticfiles %}
+    {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -25,7 +25,8 @@
               <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="https://www.linkedin.com/in/princy-mishra-399149139/"> Linked In </a>            
                 <a class="nav-item nav-link" href="{% static 'RESUME-Princy.pdf'%}">Resume</a>            
-                <a class="nav-item nav-link" href="#">Blog</a>                            
+                <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>                            
+              </div>
             </div>
           </nav>
     </header>
